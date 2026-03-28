@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PaES-LLM: Paraconsistent Energy-Saving Large Language Model
+# Requirements file
+#
+# Install (CPU):
+#   pip install -r requirements.txt
+#
+# Install (GPU / CUDA 12.1):
+#   pip install -r requirements.txt
+#   pip install torch>=2.1.0 --index-url https://download.pytorch.org/whl/cu121
+#
+# Python: 3.9 – 3.12
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core deep learning ────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0          # optional, required only for future vision experiments
+
+# ── HuggingFace ecosystem ─────────────────────────────────────────────────────
+transformers>=4.38.0         # AutoModelForCausalLM, AutoTokenizer, AutoConfig
+datasets>=2.18.0             # WikiText-2, LAMBADA loaders
+huggingface-hub>=0.21.0      # model downloading (pinned for stability)
+tokenizers>=0.15.0           # fast tokenizers (transformers dependency)
+safetensors>=0.4.0           # model weight serialisation
+
+# ── Scientific computing ──────────────────────────────────────────────────────
+numpy>=1.24.0,<2.0.0         # <2.0 for PyTorch compatibility
+scipy>=1.11.0                # optional; used in future statistical tests
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0            # publication-quality figures (600 DPI PDF)
+seaborn>=0.12.0              # statistical plotting helpers
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.65.0                 # progress bars (transformers dependency)
+packaging>=23.0              # version parsing (transformers dependency)
+filelock>=3.12.0             # safe parallel file access
+requests>=2.31.0             # HuggingFace Hub downloads

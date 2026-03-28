@@ -1,0 +1,9 @@
+
+!results/figures/fig5_competitor_comparison.png
+!results/figures/fig6_belnap_state_distribution.png
+
+!results/figures/fig5_competitor_comparison.png
+!results/figures/fig6_belnap_state_distribution.png
+__pycache__/
+*.pyc
+results/checkpoints/
