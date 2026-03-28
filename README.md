@@ -182,7 +182,6 @@ python3 run_experiments.py --mode smoke
 python3 src/utils/llm_visualizer.py
 ```
 
-Figures are written to `results/figures/` as 600 DPI PDF files.
 
 ### Interactive demo (Jupyter Notebook)
 
