@@ -11,7 +11,7 @@
 
 *Aleyna Ceyran¹ · Prof. Dr. Jair Minoro Abe²*
 
-*¹ Sakarya University, Department of Computer Engineering, Turkey*
+*¹ Sakarya University, Department of Physics, Turkey*
 *² Universidade Paulista (UNIP), Graduate Program in Production Engineering, Brazil*
 
 </div>
